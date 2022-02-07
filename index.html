@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" href="./assets/svg/Camcorder_Pro_icon-icons.com_54204.ico">
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+          <h2 class="header__title">
+              <span>Video</span>
+          </h2>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="video">
+        <div class="container">
+          <div class="video-player">
+            <div class="video-player__poster"></div>
+            <video
+              class="video-player__viewer"
+              src="./assets/video/video.mp4"
+            ></video>
+            <div class="video-player__btn"></div>
+            <div class="controls">
+              <div class="constrols__play-btn icon play"></div>
+              <input
+                type="range"
+                value="0"
+                min="0"
+                max="100"
+                step="1"
+                class="controls__duration slider"
+              />
+              <div class="controls__volume icon"></div>
+              <input type="range" min="0" value="0.5" max="1" step="0.01" class="controls__sound slider">
+              <div class="controls__scale icon "></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+          <div class="footer__wrapper">
+          <div class="data">
+            <span>©</span>
+            <span>2022</span>
+            <a target="_blank" href="https://github.com/Krvknv">github</a>
+          </div>
+          <div class="school">
+            <a target="_blank" href="https://rs.school/js-stage0/"
+              >Rolling Scopes School</a
+            >
+          </div>
+          <div class="socials">
+            <ul class="socials__list">
+              <li>
+                <a class="socials__icon">
+                  <img src="./assets/svg/inst.svg" alt="inst" />
+                </a>
+              </li>
+              <li>
+                <a class="socials__icon">
+                  <img src="./assets/svg/fb.svg" alt="fb" />
+                </a>
+              </li>
+              <li>
+                <a class="socials__icon">
+                  <img src="./assets/svg/tw.svg" alt="twitter" />
+                </a>
+              </li>
+              <li>
+                <a class="socials__icon">
+                  <img src="./assets/svg/pinterest.svg" alt="pin" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="../custom-video/index.js"></script>
+  </body>
+</html>
