@@ -1,0 +1,45 @@
+.header {
+  &__title {
+    width: 50%;
+    height: 80px;
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+    color: $beige;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 700;
+    background-image: linear-gradient(
+      to top,
+      #000 39px,
+      #bdae82 39px,
+      #bdae82 41px,
+      #000 41px
+    );
+  }
+  span {
+    background: $black;
+    padding: 20px;
+  }
+}
+// .header__title {
+//   display: flex;
+//   justify-content: center;
+//   .title__line {
+//     width: 700px;
+//     height: 2px;
+//     background: $beige;
+//     position: relative;
+//   }
+//   h1 {
+//     background: $black;
+//     color: $beige;
+//     padding: 0 20px;
+//     font-family: "Merriweather", serif;
+//     font-weight: bold;
+//     font-size: 40px;
+//     line-height: 80px;
+//     position: absolute;
+//     top: 12px;
+//     left: 643px;
+//   }
+// }

@@ -1,0 +1,31 @@
+.footer {
+  background-color: #000;
+}
+.footer__wrapper {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+.data {
+  width: 182px;
+  display: flex;
+  justify-content: space-between;
+}
+.socials {
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  width: 188px;
+
+  &__icon {
+    width: 32px;
+    height: 32px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
