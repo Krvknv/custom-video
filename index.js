@@ -66,7 +66,7 @@ function changeScale() {
   video.webkitEnterFullScreen();
 }
 
-/* Hook up the event listners*/
+/* Hook up the event listeners*/
 video.addEventListener("timeupdate", updateProgressBar);
 videoPlayerPoster.addEventListener("click", hideBtn);
 videoPlayerBtn.addEventListener("click", hideBtn);
